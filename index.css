@@ -160,7 +160,10 @@ ul li a:hover {
 
 .content-item h2 {
     font-size: 19px;
-    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
 }
 
 .content-item-text b {
