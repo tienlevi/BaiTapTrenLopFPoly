@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header-first {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #000;
+    height: 50px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    transition: 0.5s;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -15px;
+}
+
+form .search {
+    background-color: #fff;
+    border: 1px solid #fff;
+    height: 35px;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+form button {
+    background: transparent;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+}
+
+.header-second {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    margin-top: 40px;
+    height: 80px;
+    transition: 0.5s;
+}
+
+.header-second img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.user i {
+    font-size: 30px;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #f3f3f3;
+    height: 120px;
+    margin-top: -5px;
+}
+
+.intro-item {
+    width: 350px;
+}
+
+.intro-item i {
+    font-size: 40px;
+}
+
+.intro-item h2 {
+    margin-top: 10px;
+}
+
+.intro-item p {
+    margin-top: 5px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.content h1 {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.content-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-item {
+    width: 265px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    margin-top: 25px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+}
+
+.content-item img {
+    width: 265px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.content-item-text {
+    padding: 15px;
+}
+
+.content-item h2 {
+    font-size: 19px;
+    word-break: break-all;
+}
+
+.content-item-text b {
+    color: #ff2525;
+}
+
+.sale-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sale-item del {
+    color: #818181;
+}
+
+.logo-popular {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-popular img {
+    width: 200px;
+    height: 120px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #212121;
+    margin-top: 40px;
+    padding: 20px 0px;
+}
+
+footer .information {
+    color: rgb(150, 150, 150);
+}
+
+footer form {
+    display: flex;
+    margin-left: 20px;
+}
+
+footer form input {
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+footer form #submit-email {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50px;
+    height: 35px;
+    padding-left: -10px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #ff2525;
+    color: #fff;
+    border: none;
+}
+
+footer .information img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+
+footer .information p {
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.menu-footer {
+    margin-top: 5px;
+}
+
+.sub-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-footer h1 {
+    color: #fff;
+}
+
+.sub-footer a {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.fanpage h2 {
+    color: #fff;
+}
+
