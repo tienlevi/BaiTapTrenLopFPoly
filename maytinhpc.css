@@ -88,6 +88,7 @@ ul li a:hover {
 
 .user i {
     font-size: 30px;
+    color: #000;
 }
 
 .content {
@@ -130,7 +131,10 @@ ul li a:hover {
 
 .content-item h2 {
     font-size: 19px;
-    
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
 }
 
 .content-item-text b {
@@ -141,25 +145,12 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: #212121;
-    margin-top: 130px;
+    margin-top: 40px;
     padding: 20px 0px;
 }
 
 footer .information {
-    display: flex;
-    flex-direction: column;
     color: rgb(150, 150, 150);
-}
-
-footer .information img {
-    width: 200px;
-    height: 120px;
-    object-fit: cover;
-}
-
-footer .information p {
-    padding: 10px 0px;
-    font-size: 18px;
 }
 
 footer form {
@@ -188,6 +179,16 @@ footer form #submit-email {
     border: none;
 }
 
+footer .information img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+
+footer .information p {
+    padding: 10px 0px;
+    font-size: 18px;
+}
 
 .menu-footer {
     margin-top: 5px;
@@ -212,5 +213,4 @@ footer form #submit-email {
 .fanpage h2 {
     color: #fff;
 }
-
 

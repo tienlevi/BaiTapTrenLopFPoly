@@ -88,6 +88,7 @@ ul li a:hover {
 
 .user i {
     font-size: 30px;
+    color: #000;
 }
 
 .product {
@@ -107,17 +108,17 @@ ul li a:hover {
     margin-left: 30px;
 }
 
-.product-text h1 {
-    font-size: 38px;
+.product-text h2 {
+    font-size: 20px;
 }
 
 .product-text p {
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 15px;
 }
 
 .product-text h3 {
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 15px;
     font-weight: 100;
 }
@@ -131,25 +132,17 @@ ul li a:hover {
     margin-left: 8px;
 }
 
-.product-text .select {
+.product-text .config {
     margin-top: 15px;
     font-size: 25px;
 }
 
-.product-text .select select {
-    font-size: 20px;
-    margin-left: 10px;
+.product-text .config p {
+    font-size: 18px;
 }
 
-.product-text .amount {
-    margin-top: 15px;
-    font-size: 25px;
-}
-
-.product-text input {
-    width: 50px;
-    font-size: 20px;
-    margin-left: 10px;
+.product-text .state span {
+    color: #39db07;
 }
 
 .product-text .buy {
@@ -209,7 +202,7 @@ ul li a:hover {
 }
 
 .content-item h2 {
-    font-size: 19px;
+    font-size: 18px;
     word-break: break-all;
 }
 

@@ -88,110 +88,60 @@ ul li a:hover {
 
 .user i {
     font-size: 30px;
-    color: #000;
 }
 
-.banner img {
-    width: 100%;
-    margin-top: 100px;
-}
-
-.intro {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    background-color: #f3f3f3;
-    height: 120px;
-    margin-top: -5px;
-}
-
-.intro-item {
-    width: 350px;
-}
-
-.intro-item i {
-    font-size: 40px;
-}
-
-.intro-item h2 {
-    margin-top: 10px;
-}
-
-.intro-item p {
-    margin-top: 5px;
-}
-
-.content {
-    max-width: 1200px;
-    margin: 20px auto;
-}
-
-.content h1 {
-    text-align: center;
-    margin: 15px 0px;
-}
-
-.content-product {
+.form-user {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
 }
 
-.content-item {
-    width: 265px;
-    height: 350px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    margin-top: 25px;
-    overflow: hidden;
-    text-decoration: none;
-    color: #000;
+.form-user form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
 }
 
-.content-item img {
-    width: 265px;
-    height: 270px;
-    object-fit: cover;
+.form-user input {
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 20px 0px;
+    width: 250px;
+    font-size: 18px;
 }
 
-.content-item-text {
-    padding: 15px;
+.form-user input:focus {
+    outline: none;
 }
 
-.content-item h2 {
-    font-size: 19px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    width: 100%;
-}
-
-.content-item-text b {
+.form-user span {
+    margin-left: 15px;
     color: #ff2525;
 }
 
-.sale-item {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.sale-item del {
-    color: #818181;
-}
-
-.logo-popular {
-    display: flex;
-    justify-content: center;
-}
-
-.logo-popular img {
-    width: 200px;
-    height: 120px;
-    margin: 0px 20px;
+.form-user .submit {
+    background-color: #2b9efc;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: #fff;
     cursor: pointer;
-    object-fit: cover;
+}
+
+.form-user .form-icon {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.form-user .form-icon i {
+    border: 1px solid #000;
+    margin: 0px 10px;
+    padding: 10px;
 }
 
 footer {

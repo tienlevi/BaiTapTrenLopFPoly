@@ -91,45 +91,15 @@ ul li a:hover {
     color: #000;
 }
 
-.banner img {
-    width: 100%;
-    margin-top: 100px;
-}
-
-.intro {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    background-color: #f3f3f3;
-    height: 120px;
-    margin-top: -5px;
-}
-
-.intro-item {
-    width: 350px;
-}
-
-.intro-item i {
-    font-size: 40px;
-}
-
-.intro-item h2 {
-    margin-top: 10px;
-}
-
-.intro-item p {
-    margin-top: 5px;
-}
-
 .content {
     max-width: 1200px;
     margin: 20px auto;
+    margin-top: 120px;
 }
 
 .content h1 {
     text-align: center;
-    margin: 15px 0px;
+    margin: 10px 0px;
 }
 
 .content-product {
@@ -159,7 +129,7 @@ ul li a:hover {
     padding: 15px;
 }
 
-.content-item h2 {
+.content-item-text h2 {
     font-size: 19px;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -171,39 +141,29 @@ ul li a:hover {
     color: #ff2525;
 }
 
-.sale-item {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.sale-item del {
-    color: #818181;
-}
-
-.logo-popular {
-    display: flex;
-    justify-content: center;
-}
-
-.logo-popular img {
-    width: 200px;
-    height: 120px;
-    margin: 0px 20px;
-    cursor: pointer;
-    object-fit: cover;
-}
-
 footer {
     display: flex;
     justify-content: space-around;
     background-color: #212121;
-    margin-top: 40px;
+    margin-top: 130px;
     padding: 20px 0px;
 }
 
 footer .information {
+    display: flex;
+    flex-direction: column;
     color: rgb(150, 150, 150);
+}
+
+footer .information img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+
+footer .information p {
+    padding: 10px 0px;
+    font-size: 18px;
 }
 
 footer form {
@@ -232,16 +192,6 @@ footer form #submit-email {
     border: none;
 }
 
-footer .information img {
-    width: 200px;
-    height: 120px;
-    object-fit: cover;
-}
-
-footer .information p {
-    padding: 10px 0px;
-    font-size: 18px;
-}
 
 .menu-footer {
     margin-top: 5px;
@@ -266,4 +216,5 @@ footer .information p {
 .fanpage h2 {
     color: #fff;
 }
+
 
