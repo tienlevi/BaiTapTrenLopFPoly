@@ -60,7 +60,9 @@ form button {
 }
 
 .header-second img {
-  width: 200px;
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
 }
 
 ul {
@@ -89,105 +91,68 @@ ul li a:hover {
   color: #000;
 }
 
-.account-intro h1 {
+.content {
+  margin-top: 130px;
+}
+
+.content h1 {
   text-align: center;
-  margin-top: 150px;
 }
 
-.account {
+.contact {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
   justify-content: center;
-  max-width: 1000px;
-  margin: 35px auto;
+  max-width: 800px;
+  margin: auto;
+  padding: 0px 15px;
 }
 
-.aside-left {
-  width: 300px;
-  margin-top: 15px;
-  margin-right: 5%;
-  border: 1px solid #000;
-}
-
-.aside-left-column {
-  display: block;
-}
-
-.aside-left-name {
-  border-bottom: 1px solid #000;
-  cursor: pointer;
-}
-
-.aside-left-name:hover {
-  background-color: #2b9efc;
-  color: #fff;
-}
-
-.active-tab {
-  background-color: #2b9efc;
-  color: #fff;
-}
-
-.aside-left-name p {
-  font-size: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-}
-.aside-left-name i {
-  padding-right: 5px;
-}
-
-.aside-left-name a {
-  width: 100%;
-  margin: 10px 0px;
-  color: #000;
-  text-decoration: none;
-}
-
-.aside-left-name a:hover {
-  background-color: #000;
-  color: #fff;
-}
-
-.aside-right {
-  margin-top: 15px;
-}
-
-.aside-right-column {
-  display: none;
-  width: 400px;
-  border: 1px solid #000;
-}
-
-.active {
-  display: block;
-}
-
-.aside-right-name p {
-  font-size: 18px;
-  margin: 10px 5px;
-}
-
-.aside-right-name input {
-  width: 300px;
-  height: 35px;
-  font-size: 18px;
-  margin-left: 8px;
+.contact input {
   margin-bottom: 10px;
-  padding-left: 10px;
+}
+
+.contact textarea {
+  resize: vertical;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
 }
 
 footer {
   display: flex;
   justify-content: space-around;
   background-color: #212121;
-  margin-top: 60px;
+  margin-top: 130px;
   padding: 20px 0px;
 }
 
 footer .information {
+  display: flex;
+  flex-direction: column;
   color: rgb(150, 150, 150);
+}
+
+footer .information img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+}
+
+footer .information p {
+  padding: 10px 0px;
+  font-size: 18px;
 }
 
 footer form {
@@ -214,17 +179,6 @@ footer form #submit-email {
   background-color: #ff2525;
   color: #fff;
   border: none;
-}
-
-footer .information img {
-  width: 200px;
-  height: 120px;
-  object-fit: cover;
-}
-
-footer .information p {
-  padding: 10px 0px;
-  font-size: 18px;
 }
 
 .menu-footer {
