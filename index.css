@@ -191,7 +191,7 @@ ul li a:hover {
   height: 120px;
   margin: 0px 20px;
   cursor: pointer;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 footer {
